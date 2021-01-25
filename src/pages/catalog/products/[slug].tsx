@@ -1,7 +1,5 @@
 import { useRouter } from 'next/router';
 import { client } from '@/lib/prismic';
-import Link from 'next/link'
-import Prismic from 'prismic-javascript';
 import PrismicDOM from 'prismic-dom';
 import { Document } from 'prismic-javascript/types/documents'
 import { GetStaticPaths, GetStaticProps } from 'next';
