@@ -7,11 +7,6 @@ import SEO from '@/components/SEO';
 import { client } from '@/lib/prismic';
 import { Document } from 'prismic-javascript/types/documents'
 
-interface IProduct {
-  id: string;
-  title: string;
-}
-
 interface HomeProps {
   recommendedProducts: Document[];
 }
